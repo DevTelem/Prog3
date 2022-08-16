@@ -1,5 +1,6 @@
-﻿document.addEventListener("DOMContentLoaded", function (event) {
-    console.log("hello");
+﻿console.log("hello");
+document.addEventListener("DOMContentLoaded", function (event) {
+    
     if ("serviceWorker" in navigator) {
     window.addEventListener("load", function () {
         navigator.serviceWorker
