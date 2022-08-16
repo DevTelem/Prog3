@@ -1,4 +1,5 @@
-﻿if ("serviceWorker" in navigator) {
+﻿document.addEventListener("DOMContentLoaded", function (event) {
+    if ("serviceWorker" in navigator) {
     window.addEventListener("load", function () {
         navigator.serviceWorker
             .register("../service-worker.js")
